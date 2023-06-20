@@ -38,6 +38,6 @@ fun Greeting(name: String) {
 @Composable
 fun DefaultPreview() {
     MyAppCompose_aosTheme {
-        Greeting("Android")
+        Greeting("Android \nPreview")
     }
 }

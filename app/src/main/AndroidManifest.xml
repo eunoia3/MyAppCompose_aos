@@ -13,19 +13,27 @@
         android:theme="@style/Theme.MyAppCompose_aos"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.eun.myappcompose_aos.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyAppCompose_aos">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.eun.myappcompose_aos.ImgCardActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.MyAppCompose_aos">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
         </activity>
     </application>
 
