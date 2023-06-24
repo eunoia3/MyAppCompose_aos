@@ -25,6 +25,7 @@
 ## ✔️ Android Jetpack Compose 사용하기
 
 1. [Android Jetpack Compose 프로젝트 만들기](https://eunoia3jy.tistory.com/206)
+2. [Android Jetpack Compose State 상태, 기본 레이아웃 사용하기](https://eunoia3jy.tistory.com/207)
 
 
 
